@@ -4,3 +4,6 @@ var accountPassword ="12345";
 accountCity = "Delhi"
 
 console.table([accountId,accountEmail,accountPassword,accountCity])
+
+
+// Prefer not use var in your program
