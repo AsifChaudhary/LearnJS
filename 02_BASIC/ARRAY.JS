@@ -54,3 +54,17 @@ const myn2= array1.splice(1,3)
 console.log(myn2)
 console.log(array1)
 
+// Spread operator is use for concate 2 array 
+
+
+const arr1=[1,2,3,4]
+const arr2=[5,6,7]
+const final = arr1.concat(arr2)
+console.log(final)
+
+
+const spread_final = [...arr1,...arr2]  // spread denoted by [...arrayname]
+console.log(spread_final);
+
+
+//flat
