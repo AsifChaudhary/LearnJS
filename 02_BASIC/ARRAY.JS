@@ -67,4 +67,24 @@ const spread_final = [...arr1,...arr2]  // spread denoted by [...arrayname]
 console.log(spread_final);
 
 
-//flat
+//flat\
+
+
+const an_array =[1,2,3,[4,3,2,56],[3,[3,[4,4,9]]]]
+
+const real_an_array3 = an_array.flat(Infinity)
+
+console.log(real_an_array3);    // [ 1,  2, 3, 4, 3,2, 56, 3, 3, 4,4,9]
+
+
+console.log(Array.isArray("Hitesh"))  // check it is array or not
+console.log(Array.from("Hitesh"))     // convert in array
+console.log(Array.isArray(an_array))  // check it is array or not
+
+
+let score1=100
+let score2=200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3)) // return a new array from all elements
+
