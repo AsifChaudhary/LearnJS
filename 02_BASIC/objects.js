@@ -33,4 +33,7 @@ const sym = Symbol("key1")
 
     console.log(userobj.greeting2());
 
+console.log(userobj.hasOwnProperty('agse'))
+console.log(userobj.hasOwnProperty('age'))
+
 
