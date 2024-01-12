@@ -4,6 +4,14 @@
 
 // chai()
 
+// const obj ={
+//     name:"asif",
+//     age:25,
+//     deteil:function(){
+//         console.log(this.name)
+//     }
+// }
+
 
 
 (function hello(){
@@ -11,5 +19,5 @@
 })();
 
 (()=> {
-    console.log("bhai");   // Unnamed IIFE   (Immediately invocked function Expression)
+    console.log("bhai");   // named IIFE   (Immediately invocked function Expression)
 })();
