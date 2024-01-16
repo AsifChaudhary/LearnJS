@@ -3,7 +3,8 @@ function sayname(){
     console.log("S")
     console.log("I")
     
-    console.log("f")
+    console.log("F")
+    console.log("Hello");
 }
 
 sayname()
