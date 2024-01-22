@@ -62,11 +62,11 @@ const shoppingcart =[
 
     {
 
-        item1:"Condom",
+        item1:"book",
         price:1000,
         quantity1:2
     },
-    {item2:"Vibrator",
+    {item2:"car",
     price:2000,
     quantity2:3},
 
