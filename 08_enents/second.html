@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Second File</h1>
+    <button id="start">Start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+
+const PRODUCT = function(str){
+    document.querySelector('h1').innerHTML = `${str}${Date.now()}`;
+}
+let clickme ;
+document.getElementById('start').addEventListener('click',function(ev){
+
+// clearInterval(clickme)
+clickme = setInterval(PRODUCT,2000,'Maddy')
+
+})
+
+document.getElementById('stop').addEventListener('click',function(ev){
+
+clearInterval(clickme)
+
+
+})
+
+setInterval(function(){
+    console.log(Date.now())
+},5000);
+
+</script>
+</html>
