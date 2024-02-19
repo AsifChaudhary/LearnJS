@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Create Products</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+
+const PRODUCT = function(){
+    document.querySelector('h1').innerHTML = 'Best JS';
+}
+const clickme = setTimeout(PRODUCT,2000)
+
+
+document.getElementById('stop').addEventListener('click',function(ev){
+
+clearInterval(clickme)
+
+
+})
+
+</script>
+</html>
