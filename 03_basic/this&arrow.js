@@ -1,8 +1,8 @@
-// const chai = ()=>{
-//     console.log('hello')
-// }
+const chai = (e)=>{
+    console.log(`Hello ${e}`)
+}
 
-// chai()
+chai("asif")
 
 // const obj ={
 //     name:"asif",
@@ -14,10 +14,10 @@
 
 
 
-(function hello(){
-    console.log("Hello");   // named IIFE   (Immediately invocked function Expression)
-})();
+// (function hello(){
+//     console.log("Hello");   // named IIFE   (Immediately invocked function Expression)
+// })();
 
-(()=> {
-    console.log("bhai");   // named IIFE   (Immediately invocked function Expression)
-})();
+// (()=> {
+//     console.log("bhai");   // named IIFE   (Immediately invocked function Expression)
+// })();
